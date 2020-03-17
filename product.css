@@ -1,0 +1,91 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background:url(../images/product.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.header {
+    background-color:#000;
+    color:#fff;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+.inner-header {
+    width:80%;
+    margin:auto;
+}
+
+.logo {
+    float: left;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-link {
+    float:right;
+    font-size:14px;
+    height: 50px;
+    padding: 15px 15px;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.card {
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    max-width: 320px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: Trebuche MS;
+  }
+  
+  .price {
+    color: black;
+    font-size: 22px;
+  }
+  
+  .card h1 {color: black;}
+  .card p{color: black;}
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 15px;
+    background: #1c8adb;
+    color: #fff;
+    
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 1;
+    background-color: #39dc79;
+    color: #000;
+  }
+
+  footer {
+    background-color: #000;
+    color:#fff;
+    font-size:14px;
+}
+.container {
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+
